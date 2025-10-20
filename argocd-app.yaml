@@ -17,5 +17,9 @@ spec:
     namespace: satya
   syncPolicy:
     automated:
-      prune: true
+      prune: false
       selfHeal: true
+    # Prevent Argo CD from pruning resources during problematic transitions.
+    # This is intentional while moving the app from 'default' to 'satya'.
+    syncOptions:
+      - Prune=false
