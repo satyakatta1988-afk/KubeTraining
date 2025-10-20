@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: satyakatta1988/simple-node-app
-  tag: v1
+  tag: v2
   pullPolicy: IfNotPresent
 
 service:
