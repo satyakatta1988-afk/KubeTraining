@@ -1,0 +1,6 @@
+apiVersion: v2
+name: simple-node-app
+description: A minimal Helm chart for the simple Node.js app
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
